@@ -12,26 +12,30 @@ This MkDocs plugin allows you to write beautiful pseudocode in your MkDocs docum
 
 ## Installation
 
-1. Clone the repository:
+1. Install the plugin locally:
 
    ```bash
-   git clone https://github.com/your-username/mkdocs-pseudocode-plugin.git
-   cd mkdocs-pseudocode-plugin
+   pip install mkdocs-pseudocode
    ```
 
-2. Install the plugin locally:
-
-   ```bash
-   pip install -e .
-   ```
-
-3. Add the plugin to your `mkdocs.yml` configuration file:
+2. Add the plugin to your `mkdocs.yml` configuration file:
 
    ```yaml
    plugins:
      - search
      - pseudocode
    ```
+
+3. Copy CSS file into your `extra.css` file of your Mkdocs project
+
+    Place the `pseudo-code.css` file in the `docs/css/` directory of your MkDocs project.
+
+    Add the following lines to your `mkdocs.yml` file:
+
+    ```yaml
+    extra_css:
+        - css/pseudo-code.css
+    ```
 
 ## Usage
 
@@ -111,8 +115,6 @@ Contributions are welcome! Please submit a pull request or open an issue to disc
 
 ## Author
 
-Your Name
+Jules TOPART
 
 ---
-
-Feel free to customize the content as needed before publishing it on GitHub.
