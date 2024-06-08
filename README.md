@@ -2,6 +2,8 @@
 
 This MkDocs plugin allows you to write beautiful pseudocode in your MkDocs documentation using a simplified syntax inspired by LaTeX.
 
+![](image.jpg)
+
 ## Features
 
 - Render pseudocode blocks with LaTeX-inspired syntax
