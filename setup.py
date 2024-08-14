@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='mkdocs-pseudocode',
-    version='0.1.1',
+    version='0.1.2',
     description='A MkDocs plugin to render beautiful pseudocode with LaTeX-inspired syntax.',
     long_description=long_description,
     long_description_content_type='text/markdown',
